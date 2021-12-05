@@ -1,0 +1,28 @@
+svg{
+  --wk: #F3F4F5;
+  --bk: #939598;
+  --yellow: #FFCB00;
+  --blue: #5CB6EC ;
+  --red: #FF0032 ;
+}
+
+/* TOUCHE BLANCHE */
+.key.white{
+  fill:#f4f6f7;
+  fill-rule:nonzero;
+  stroke:#231f20;
+  stroke-width:0.57px;
+  
+}
+
+/* TOUCHE NOIRE */
+.key.black{
+    fill:#939598;
+    fill-rule:nonzero;
+    stroke:#231f20;
+    stroke-width:0.57px;
+}
+
+/* #pastilles1,#pastilles2{
+  display: none;
+} */

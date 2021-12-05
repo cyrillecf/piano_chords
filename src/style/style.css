@@ -1,0 +1,40 @@
+/* body{
+  margin: auto 0;
+} */
+
+/* espacement tableau*/
+table {
+  margin: auto ;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  background-color: #ff33cc;
+}
+
+th, td {
+  padding: 20px;
+  /* border: 3px solid blue; */
+}
+
+/* typographie */
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+ td {
+  text-align: center;
+}
+ 
+tbody tr:nth-child(even) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e495e4;
+}
